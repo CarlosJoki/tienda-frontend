@@ -16,9 +16,9 @@ Rutas: Mapea las URLs (/clientes, /productos, /ventas) a sus componentes de pág
 Propósito: Contiene los componentes que representan una página completa o una vista principal de una entidad.
 
 Archivos:
-ClientesPage.jsx: Gestiona toda la lógica para la sección de clientes: obtiene la lista de clientes, maneja la búsqueda, y coordina la creación, edición y eliminación a través de modales.
-ProductosPage.jsx: Funcionalidad similar a la página de clientes, pero para la gestión de productos.
-VentasPage.jsx: Muestra el historial de ventas y permite registrar nuevas ventas.
+* ClientesPage.jsx: Gestiona toda la lógica para la sección de clientes: obtiene la lista de clientes, maneja la búsqueda, y coordina la creación, edición y eliminación a través de modales.
+* ProductosPage.jsx: Funcionalidad similar a la página de clientes, pero para la gestión de productos.
+* VentasPage.jsx: Muestra el historial de ventas y permite registrar nuevas ventas.
 
 # 4. components/ (Componentes Reutilizables)
 
