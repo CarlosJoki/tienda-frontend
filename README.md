@@ -25,15 +25,15 @@ Archivos:
 Propósito: Contiene componentes de UI que se utilizan en varias partes de la aplicación. Esto promueve la reutilización de código y la consistencia.
 
 Archivos:
-Layout.jsx: Define la estructura base con la barra de navegación y un Outlet donde se renderizan las páginas.
-ClienteForm.jsx, ProductoForm.jsx, VentaForm.jsx: Formularios para crear o editar datos. Son reutilizados dentro de los modales.
-Modal.jsx: Un componente genérico para mostrar contenido en una ventana emergente (modal), usado para los formularios y las confirmaciones de eliminación.
-Alert.jsx: Muestra notificaciones de éxito o error que desaparecen automáticamente.
+* Layout.jsx: Define la estructura base con la barra de navegación y un Outlet donde se renderizan las páginas.
+* ClienteForm.jsx, ProductoForm.jsx, VentaForm.jsx: Formularios para crear o editar datos y reutilizados dentro de los modales.
+* Modal.jsx: Un componente genérico para mostrar contenido en una ventana emergente (modal), usado para los formularios y las confirmaciones de eliminación.
+* Alert.jsx: Muestra notificaciones de éxito o error que desaparecen automáticamente.
 
-5. api/ (Capa de Comunicación con el Backend)
+# 5. api/ (Capa de Comunicación con el Backend)
 
 Propósito: Abstrae toda la lógica de las llamadas a la API. Los componentes de las páginas no hacen llamadas HTTP directamente, sino que usan las funciones de esta capa.
 
 Archivos:
-axiosConfig.js: Configura una instancia de axios con la URL base del backend (http://localhost:8080/api). Esto es fundamental para no tener que repetir la URL en cada llamada.
-clienteService.js, productoService.js, ventaService.js: Cada archivo exporta funciones que corresponden a los endpoints de la API para cada entidad (ej. getAllClientes, createCliente).
+* axiosConfig.js: Configura una instancia de axios con la URL base del backend (http://localhost:8080/api). # Esto es fundamental para no tener que repetir la URL en cada llamada.
+* clienteService.js, productoService.js, ventaService.js: Cada archivo exporta funciones que corresponden a los endpoints de la API para cada entidad.
